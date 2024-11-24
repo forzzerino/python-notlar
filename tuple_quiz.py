@@ -83,7 +83,7 @@ alan elemanın tüm Tuple içinde kaç sefer yer aldığını bize dönsün. Ad�
 """
 
 
-""" def kac_kere_geciyor(parametre, index):
+def kac_kere_geciyor(parametre, index):
     sayac = 0
     liste = list()
     for i in parametre:
@@ -91,7 +91,7 @@ alan elemanın tüm Tuple içinde kaç sefer yer aldığını bize dönsün. Ad�
             sayac += 1
     print(sayac)
 
-kac_kere_geciyor(t,2) """
+kac_kere_geciyor(t,2)
 
 
 
@@ -115,14 +115,14 @@ Aşağıdaki sorulara slicing yani dilimleme ile (index bazlı) cevap veriniz:
 11. tup'u tersten 2'şer atlayarak yazın
 12. Son elemana (hariç) kadar olan tüm elemanlarını ters index ile alınız
 """
-""" tup = ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j')
+tup = ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j')
 def bulma_fonks(tup):
     print("dort ve yedi arasi: {}".format(tup[3:7]))
     print("ilk bes elemanm: {}".format(tup[0:4]))
     print("altıncıdan sonra: {}".format(tup[5:]))
     print("tum elemanlar: {}".format(tup[::]))
     print("sondan ikinci: {}".format(tup[-2:-1:]))
-bulma_fonks(tup) """
+bulma_fonks(tup)
 
 
 
@@ -142,7 +142,7 @@ elamanının son üyesini silsin, yerine karesini yazsın.
 • Listeyi değiştirmenin bir yolunu bulmalısınız (enumerate())
 • Tuple birleştirmeye dikkat ediniz (tek elemanlı bir Tuple nasıl olur? """
 
-""" tuple_listesi = [(2,5,8), (4,3), (1,7,9,6), (5,)]
+tuple_listesi = [(2,5,8), (4,3), (1,7,9,6), (5,)]
 import math
 def kareler_tuple(liste):
     for index, tup in enumerate(liste):
@@ -154,7 +154,7 @@ def kareler_tuple(liste):
         
 
     
-kareler_tuple(tuple_listesi) """
+kareler_tuple(tuple_listesi) 
 
 """ 
 
@@ -169,7 +169,7 @@ Ve yeni kareli listeyi geri dönsün.
 • Listenin içinde for ile dönerken, döngüdeki elemanı değiştirseniz de liste değişmez """
 
 
-""" 
+
 tuple_listesi = [(2,5,8), (4,3), (1,7,9,6), (5,)]
 def tuple_liste_degistir(liste):
     yeni_liste = liste.copy()
@@ -182,7 +182,7 @@ def tuple_liste_degistir(liste):
 
 tuple_liste_degistir(tuple_listesi)
 
- """
+
  
  
 """  Fonksiyon bu 4 listedeki, karşılıklı elemanları alacak ve 2'şer elemanlı 2 Tuple haline getirecek. 
@@ -201,7 +201,7 @@ filmler = ['The Godfather', 'The Dark Knight', 'Black Swan', 'La La
 Land']
 yillar = [1972, 2008, 2010, 2016]    
   """
-""" oyuncular = ['Marlon Brando', 'Heath Ledger', 'Natalie Portman', 'Emma Stone']
+oyuncular = ['Marlon Brando', 'Heath Ledger', 'Natalie Portman', 'Emma Stone']
 
 karakterler = ['Don Vito Corleone', 'Joker', 'The Swan Queen', 'Mia']
 
@@ -229,7 +229,7 @@ def birlestir(oyuncu_adi, karakter_adi, film_adi, yillar):
 
     
 birlestir(oyuncular,karakterler,filmler,yillar)
-  """
+
  
  
  
